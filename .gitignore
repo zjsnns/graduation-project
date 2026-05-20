@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+venv/
+.venv/
+env/
+
+# Generated experiment outputs
+inference_outputs/
+inference_outputs_smoke/
+*_runs*/
+outputs/
+plots/
+
+# Sundial large model weights and adapters
+model.safetensors
+*.safetensors
+adapter_model.bin
+adapter_model.safetensors
+flow_loss.pt
+exo_adapter.pt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
